@@ -1,0 +1,20 @@
+{
+"homepage": "https://github.com/migliori/sublime-phpformbuilder",
+"description": "PHP Form Builder is a Sublime Text 3 plugin for Php Form Builder, PHP class to build forms sold on Codecanyon (http://codecanyon.net/item/php-form-builder/8790160)",
+"authors": ["migliori"],
+"labels": ["auto-complete","bootstrap","form","php"],
+"issues": "https://github.com/migliori/sublime-phpformbuilder/issues",
+"previous_names": [],
+"releases": [{"sublime_text": "*",
+"date": "2015-08-12 21:57:12",
+"platforms": ["*"],
+"version": "1.0.0",
+"url": "https://codeload.github.com/migliori/sublime-phpformbuilder/zip/v1.0.0"}]
+
+cd sublime-phpformbuilder
+git init
+git add .
+git commit -m 'First commit'
+git tag -a v1.0.0 -m 'Version 1.0.0'
+git remote add origin https://github.com/migliori/sublime-phpformbuilder.git
+git push -u --tags origin master

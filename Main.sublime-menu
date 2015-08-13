@@ -1,0 +1,160 @@
+[{
+    "id": "tools",
+    "children": [{
+        "id": "php_form_builder",
+        "caption": "PHP Form Builder",
+        "children": [{
+            "id": "php_form_builder_completions",
+            "caption": "Completions",
+            "children": [{
+                "caption": "new Form()",
+                "command": "completion_trigger", "args": {"completionTriggerText": "newForm"}
+            }, {
+                "caption": "setAction()",
+                "command": "completion_trigger", "args": {"completionTriggerText": "setAction"}
+            }, {
+                "caption": "startFieldset()",
+                "command": "completion_trigger", "args": {"completionTriggerText": "startFieldset"}
+            }, {
+                "caption": "endFieldset()",
+                "command": "completion_trigger", "args": {"completionTriggerText": "endFieldset"}
+            }, {
+                "caption": "addInputWrapper()",
+                "command": "completion_trigger", "args": {"completionTriggerText": "addInputWrapper"}
+            }, {
+                "caption": "groupInputs()",
+                "command": "completion_trigger", "args": {"completionTriggerText": "groupInputs"}
+            }, {
+                "caption": "addInput()",
+                "command": "completion_trigger", "args": {"completionTriggerText": "addInput"}
+            }, {
+                "caption": "addTextarea()",
+                "command": "completion_trigger", "args": {"completionTriggerText": "addTextarea"}
+            }, {
+                "caption": "addOption()",
+                "command": "completion_trigger", "args": {"completionTriggerText": "addOption"}
+            }, {
+                "caption": "addSelect()",
+                "command": "completion_trigger", "args": {"completionTriggerText": "addSelect"}
+            }, {
+                "caption": "addCountrySelect()",
+                "command": "completion_trigger", "args": {"completionTriggerText": "addCountrySelect"}
+            }, {
+                "caption": "addRadio()",
+                "command": "completion_trigger", "args": {"completionTriggerText": "addRadio"}
+            }, {
+                "caption": "printRadioGroup()",
+                "command": "completion_trigger", "args": {"completionTriggerText": "printRadioGroup"}
+            }, {
+                "caption": "addCheckbox()",
+                "command": "completion_trigger", "args": {"completionTriggerText": "addCheckbox"}
+            }, {
+                "caption": "printCheckboxGroup()",
+                "command": "completion_trigger", "args": {"completionTriggerText": "printCheckboxGroup"}
+            }, {
+                "caption": "addBtn()",
+                "command": "completion_trigger", "args": {"completionTriggerText": "addBtn"}
+            }, {
+                "caption": "printBtnGroup()",
+                "command": "completion_trigger", "args": {"completionTriggerText": "printBtnGroup"}
+            }, {
+                "caption": "addPlugin()",
+                "command": "completion_trigger", "args": {"completionTriggerText": "addPlugin"}
+            }, {
+                "caption": "addFileUpload()",
+                "command": "completion_trigger", "args": {"completionTriggerText": "addFileUpload"}
+            }, {
+                "caption": "printIncludes()",
+                "command": "completion_trigger", "args": {"completionTriggerText": "printIncludes"}
+            }, {
+                "caption": "printJsCode()",
+                "command": "completion_trigger", "args": {"completionTriggerText": "printJsCode"}
+            }, {
+                "caption": "render()",
+                "command": "completion_trigger", "args": {"completionTriggerText": "render"}
+            }, {
+                "caption": "Form::sendMail()",
+                "command": "completion_trigger", "args": {"completionTriggerText": "FormSendMail"}
+            }, {
+                "caption": "Form::sendAdvancedMail()",
+                "command": "completion_trigger", "args": {"completionTriggerText": "FormSendAdvancedMail"}
+            }, {
+                "caption": "Form::registerValues()",
+                "command": "completion_trigger", "args": {"completionTriggerText": "FormRegisterValues"}
+            }, {
+                "caption": "Form::mergeValues()",
+                "command": "completion_trigger", "args": {"completionTriggerText": "FormMergeValues"}
+            }, {
+                "caption": "Form::clear()",
+                "command": "completion_trigger", "args": {"completionTriggerText": "FormClear"}
+            }]
+        }]
+    }]
+},
+{
+    "caption": "Preferences",
+    "mnemonic": "n",
+    "id": "preferences",
+    "children": [{
+        "caption": "Package Settings",
+        "mnemonic": "P",
+        "id": "package-settings",
+        "children": [{
+            "caption": "PHP Form Builder",
+            "children": [{
+                "command": "open_file",
+                "args": {
+                        "file": "${packages}/PHP Form Builder/Default (OSX).sublime-keymap",
+                        "platform": "OSX"
+                },
+                "caption": "Key Bindings – Default"
+            },
+            {
+                "command": "open_file",
+                "args": {
+                        "file": "${packages}/PHP Form Builder/Default (Linux).sublime-keymap",
+                        "platform": "Linux"
+                },
+                "caption": "Key Bindings – Default"
+            },
+            {
+                "command": "open_file",
+                "args": {
+                        "file": "${packages}/PHP Form Builder/Default (Windows).sublime-keymap",
+                        "platform": "Windows"
+                },
+                "caption": "Key Bindings – Default"
+            },
+            {
+                "command": "open_file",
+                "args": {
+                        "file": "${packages}/User/Default (OSX).sublime-keymap",
+                        "platform": "OSX"
+                },
+                "caption": "Key Bindings – User"
+            },
+            {
+                "command": "open_file",
+                "args": {
+                        "file": "${packages}/User/Default (Linux).sublime-keymap",
+                        "platform": "Linux"
+                },
+                "caption": "Key Bindings – User"
+            },
+            {
+                "command": "open_file",
+                "args": {
+                        "file": "${packages}/User/Default (Windows).sublime-keymap",
+                        "platform": "Windows"
+                },
+                "caption": "Key Bindings – User"
+            },
+            { "caption": "-" },
+            {
+                "command": "open_file",
+                "args": {"file": "${packages}/PHP Form Builder/README.md"},
+                "caption": "README"
+            }]
+        }]
+    }]
+}]

@@ -1,0 +1,5 @@
+[
+    {
+        "keys": ["super+alt+w"], "command": "php_form_builder"
+    }
+]
