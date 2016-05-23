@@ -19,6 +19,12 @@
                 "caption": "endFieldset()",
                 "command": "completion_trigger", "args": {"completionTriggerText": "endFieldset"}
             }, {
+                "caption": "startDependantFields()",
+                "command": "completion_trigger", "args": {"completionTriggerText": "startDependantFields"}
+            }, {
+                "caption": "endDependantFields()",
+                "command": "completion_trigger", "args": {"completionTriggerText": "endDependantFields"}
+            }, {
                 "caption": "addInputWrapper()",
                 "command": "completion_trigger", "args": {"completionTriggerText": "addInputWrapper"}
             }, {

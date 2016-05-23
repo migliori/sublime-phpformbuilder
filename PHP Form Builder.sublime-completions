@@ -23,6 +23,8 @@
         { "trigger": "printBtnGroup($btnGroupName, $label = '')", "contents": "\\$form->printBtnGroup(${1:\\$btnGroupName}, ${2:\\$label = ''});" },
         { "trigger": "startFieldset($legend = '')", "contents": "\\$form->startFieldset(${1:\\$legend = ''});" },
         { "trigger": "endFieldset()", "contents": "\\$form->endFieldset();" },
+        { "trigger": "startDependantFields()", "contents": "\\$form->startDependantFields(${1:\\$parent_field}, ${2:\\$show_values});" },
+        { "trigger": "endDependantFields()", "contents": "\\$form->endDependantFields();" },
         { "trigger": "addPlugin($plugin_name, $selector, $js_content = 'default', $js_replacements = '')", "contents": "\\$form->addPlugin(${1:\\$plugin_name}, ${2:'#selector'}, ${3:\\$js_content = 'default'}, ${4:\\$js_replacements = ''});" },
         { "trigger": "printIncludes($type)", "contents": "\\$form->printIncludes('${1:js | css}');" },
         { "trigger": "printJsCode()", "contents": "\\$form->printJsCode();" },
