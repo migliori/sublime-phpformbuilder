@@ -17,7 +17,7 @@
         { "trigger": "addCountrySelect($select_name, $label = '', $attr = '', $user_options = array())", "contents": "\\$form->addCountrySelect('${1:country}', '${2:Country : }');" },
         { "trigger": "addRadio($group_name, $label, $value, $attr)", "contents": "\\$form->addRadio(${1:\\$group_name}, ${2:\\$label}, ${3:\\$value}, ${4:\\$attr = ''});" },
         { "trigger": "printRadioGroup($group_name, $label = '', $inline = true, $attr = '')", "contents": "\\$form->printRadioGroup(${1:\\$group_name}, ${2:\\$label}, ${3:\\$inline = true}, ${4:\\$attr = ''});" },
-        { "trigger": "addCheckbox($group_name, $label, $name, $value, $attr)", "contents": "\\$form->addCheckbox(${1:\\$group_name}, ${2:\\$label}, ${3:\\$name}, ${4:\\$value}, ${5:\\$attr});" },
+        { "trigger": "addCheckbox($group_name, $label, $value, $attr)", "contents": "\\$form->addCheckbox(${1:\\$group_name}, ${2:\\$label}, ${3:\\$value}, ${4:\\$attr});" },
         { "trigger": "printCheckboxGroup($group_name, $label = '', $inline = true, $attr = '')", "contents": "\\$form->printCheckboxGroup(${1:\\$group_name}, ${2:\\$label}, ${3:\\$inline = true}, ${4:\\$attr = ''});" },
         { "trigger": "addBtn($type, $name, $value, $text, $attr = '', $btnGroupName = '')", "contents": "\\$form->addBtn(${1:\\$type}, ${2:\\$name}, ${3:\\$value}, ${4:\\$text}, ${5:\\$attr = ''}, ${6:\\$btnGroupName = ''});" },
         { "trigger": "printBtnGroup($btnGroupName, $label = '')", "contents": "\\$form->printBtnGroup(${1:\\$btnGroupName}, ${2:\\$label = ''});" },
