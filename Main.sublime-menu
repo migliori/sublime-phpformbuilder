@@ -10,8 +10,23 @@
                 "caption": "new Form()",
                 "command": "completion_trigger", "args": {"completionTriggerText": "newForm"}
             }, {
+                "caption": "setOptions()",
+                "command": "completion_trigger", "args": {"completionTriggerText": "setOptions"}
+            }, {
                 "caption": "setAction()",
                 "command": "completion_trigger", "args": {"completionTriggerText": "setAction"}
+            }, {
+                "caption": "setMethod()",
+                "command": "completion_trigger", "args": {"completionTriggerText": "setMethod"}
+            }, {
+                "caption": "addHtml()",
+                "command": "completion_trigger", "args": {"completionTriggerText": "addHtml"}
+            }, {
+                "caption": "setCols()",
+                "command": "completion_trigger", "args": {"completionTriggerText": "setCols"}
+            }, {
+                "caption": "addIcon()",
+                "command": "completion_trigger", "args": {"completionTriggerText": "addIcon"}
             }, {
                 "caption": "startFieldset()",
                 "command": "completion_trigger", "args": {"completionTriggerText": "startFieldset"}
@@ -93,6 +108,9 @@
             }, {
                 "caption": "Form::clear()",
                 "command": "completion_trigger", "args": {"completionTriggerText": "FormClear"}
+            }, {
+                "caption": "Form::testToken()",
+                "command": "completion_trigger", "args": {"completionTriggerText": "FormTestToken"}
             }]
         }]
     }]
