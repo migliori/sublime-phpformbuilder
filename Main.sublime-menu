@@ -13,20 +13,11 @@
                 "caption": "setOptions()",
                 "command": "completion_trigger", "args": {"completionTriggerText": "setOptions"}
             }, {
-                "caption": "setAction()",
-                "command": "completion_trigger", "args": {"completionTriggerText": "setAction"}
-            }, {
                 "caption": "setMethod()",
                 "command": "completion_trigger", "args": {"completionTriggerText": "setMethod"}
             }, {
-                "caption": "addHtml()",
-                "command": "completion_trigger", "args": {"completionTriggerText": "addHtml"}
-            }, {
-                "caption": "setCols()",
-                "command": "completion_trigger", "args": {"completionTriggerText": "setCols"}
-            }, {
-                "caption": "addIcon()",
-                "command": "completion_trigger", "args": {"completionTriggerText": "addIcon"}
+                "caption": "setAction()",
+                "command": "completion_trigger", "args": {"completionTriggerText": "setAction"}
             }, {
                 "caption": "startFieldset()",
                 "command": "completion_trigger", "args": {"completionTriggerText": "startFieldset"}
@@ -40,14 +31,11 @@
                 "caption": "endDependantFields()",
                 "command": "completion_trigger", "args": {"completionTriggerText": "endDependantFields"}
             }, {
-                "caption": "addInputWrapper()",
-                "command": "completion_trigger", "args": {"completionTriggerText": "addInputWrapper"}
+                "caption": "addInput()",
+                "command": "completion_trigger", "args": {"completionTriggerText": "addInput"}
             }, {
                 "caption": "groupInputs()",
                 "command": "completion_trigger", "args": {"completionTriggerText": "groupInputs"}
-            }, {
-                "caption": "addInput()",
-                "command": "completion_trigger", "args": {"completionTriggerText": "addInput"}
             }, {
                 "caption": "addTextarea()",
                 "command": "completion_trigger", "args": {"completionTriggerText": "addTextarea"}
@@ -79,11 +67,14 @@
                 "caption": "printBtnGroup()",
                 "command": "completion_trigger", "args": {"completionTriggerText": "printBtnGroup"}
             }, {
-                "caption": "addPlugin()",
-                "command": "completion_trigger", "args": {"completionTriggerText": "addPlugin"}
+                "caption": "addHtml()",
+                "command": "completion_trigger", "args": {"completionTriggerText": "addHtml"}
             }, {
-                "caption": "addFileUpload()",
-                "command": "completion_trigger", "args": {"completionTriggerText": "addFileUpload"}
+                "caption": "addInputWrapper()",
+                "command": "completion_trigger", "args": {"completionTriggerText": "addInputWrapper"}
+            }, {
+                "caption": "render()",
+                "command": "completion_trigger", "args": {"completionTriggerText": "render"}
             }, {
                 "caption": "printIncludes()",
                 "command": "completion_trigger", "args": {"completionTriggerText": "printIncludes"}
@@ -91,14 +82,23 @@
                 "caption": "printJsCode()",
                 "command": "completion_trigger", "args": {"completionTriggerText": "printJsCode"}
             }, {
-                "caption": "render()",
-                "command": "completion_trigger", "args": {"completionTriggerText": "render"}
+                "caption": "setCols()",
+                "command": "completion_trigger", "args": {"completionTriggerText": "setCols"}
+            }, {
+                "caption": "addHelper()",
+                "command": "completion_trigger", "args": {"completionTriggerText": "addHelper"}
+            }, {
+                "caption": "addIcon()",
+                "command": "completion_trigger", "args": {"completionTriggerText": "addIcon"}
+            }, {
+                "caption": "addPlugin()",
+                "command": "completion_trigger", "args": {"completionTriggerText": "addPlugin"}
+            }, {
+                "caption": "addFileUpload()",
+                "command": "completion_trigger", "args": {"completionTriggerText": "addFileUpload"}
             }, {
                 "caption": "Form::sendMail()",
                 "command": "completion_trigger", "args": {"completionTriggerText": "FormSendMail"}
-            }, {
-                "caption": "Form::sendAdvancedMail()",
-                "command": "completion_trigger", "args": {"completionTriggerText": "FormSendAdvancedMail"}
             }, {
                 "caption": "Form::registerValues()",
                 "command": "completion_trigger", "args": {"completionTriggerText": "FormRegisterValues"}
@@ -111,6 +111,9 @@
             }, {
                 "caption": "Form::testToken()",
                 "command": "completion_trigger", "args": {"completionTriggerText": "FormTestToken"}
+            }, {
+                "caption": "Form::validate()",
+                "command": "completion_trigger", "args": {"completionTriggerText": "FormValidate"}
             }]
         }]
     }]

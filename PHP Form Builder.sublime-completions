@@ -25,7 +25,7 @@
         { "trigger": "printCheckboxGroup($group_name, $label = '', $inline = true, $attr = '')", "contents": "\\$form->printCheckboxGroup(${1:\\$group_name}, ${2:\\$label}, ${3:\\$inline = true}, ${4:\\$attr = ''});" },
         { "trigger": "addBtn($type, $name, $value, $text, $attr = '', $btnGroupName = '')", "contents": "\\$form->addBtn(${1:\\$type}, ${2:\\$name}, ${3:\\$value}, ${4:\\$text}, ${5:\\$attr = ''}, ${6:\\$btnGroupName = ''});" },
         { "trigger": "printBtnGroup($btnGroupName, $label = '')", "contents": "\\$form->printBtnGroup(${1:\\$btnGroupName}, ${2:\\$label = ''});" },
-        { "trigger": "startFieldset($legend = '')", "contents": "\\$form->startFieldset(${1:\\$legend = ''}, ${2:\\$fieldset_attr = ''}, ${3:\\$legend_attr = ''});" },
+        { "trigger": "startFieldset($legend = '', $fieldset_attr = '')", "contents": "\\$form->startFieldset(${1:\\$legend = ''}, ${2:\\$fieldset_attr = ''}, ${3:\\$legend_attr = ''});" },
         { "trigger": "endFieldset()", "contents": "\\$form->endFieldset();" },
         { "trigger": "startDependantFields()", "contents": "\\$form->startDependantFields(${1:\\$parent_field}, ${2:\\$show_values});" },
         { "trigger": "endDependantFields()", "contents": "\\$form->endDependantFields();" },
