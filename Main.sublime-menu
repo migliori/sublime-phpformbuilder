@@ -64,6 +64,9 @@
                 "caption": "addBtn()",
                 "command": "completion_trigger", "args": {"completionTriggerText": "addBtn"}
             }, {
+                "caption": "centerButtons()",
+                "command": "completion_trigger", "args": {"completionTriggerText": "centerButtons"}
+            }, {
                 "caption": "printBtnGroup()",
                 "command": "completion_trigger", "args": {"completionTriggerText": "printBtnGroup"}
             }, {
