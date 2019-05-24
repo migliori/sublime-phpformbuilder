@@ -1,0 +1,8 @@
+{
+    "description": "PHP Form Builder is a Sublime Text 3 plugin for Php Form Builder, PHP class to build forms (http://codecanyon.net/item/php-form-builder/8790160)",
+    "sublime_text": "*",
+    "dependencies": [],
+    "platforms": ["*"],
+    "url": "https://www.phpformbuilder.pro",
+    "version": "4.2.1"
+}

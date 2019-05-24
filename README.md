@@ -19,7 +19,7 @@ Installing
   First install Package Control - [see installation instructions](https://packagecontrol.io/installation)
   Then inside Sublime Text press `ctrl + shift + p` ( `super + shift + p` on Mac OS X ) and find
   `Package Control: Install Package` then press Enter.
-  You can search for the `PHP Form Builder` package by entering its name `PHP Form Builder`<br><br>
+  You can search for the `PHP Form Builder` package by entering its name `PHP Form Builder`
 
 **Without Git:** Download the latest source from [GitHub](https://github.com/migliori/sublime-phpformbuilder) and copy the PhpFormBuilder folder to your Sublime Text "Packages" directory.
 
@@ -52,7 +52,11 @@ Usage
 `ctrl+alt+w` or `super+alt+w`
 
 ### using auto-completions
-start typing the name of the function, auto-complete list will appear.
+start typing the name of a PHP Form Builder function, the auto-complete list will appear.
+
+OR
+
+start typing "phpformbuilder" to show all the available completions
 
 ### using sublime text menu
 Tools -> PHP Form Builder -> Completions
