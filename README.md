@@ -1,7 +1,7 @@
 PHP Form Builder
 ==============
 
-PHP Form Builder is a Sublime Text 2/3 plugin for [**Php Form Builder**](http://codecanyon.net/item/php-form-builder/8790160 "Php Form Builder"),  
+PHP Form Builder is a Sublime Text 2/3 plugin for [**Php Form Builder**](https://www.phpformbuilder.pro "Php Form Builder"),
 php class to build forms sold on [Codecanyon](http://codecanyon.net/category/php-scripts "Codecanyon").
 
 PHP Form Builder adds auto-completions for Form Builder's PHP class methods.
@@ -67,3 +67,9 @@ Shortcut
 Defaut shortcut is `ctrl+alt+w` or `super+alt+w`
 
 You can change it in Preferences -> Package Settings -> PHP Form Builder -> Key Bidings - User
+
+More
+----
+
+PHP Form Builder is also available in the PHP CRUD Generator package
+PHP CRUD Generator is a web app that generates a [**PHP MySQL Bootstrap admin panel**](https://www.phpcrudgenerator.com "PHP CRUD Generator") using a visual user interface
