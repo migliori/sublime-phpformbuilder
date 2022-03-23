@@ -1,10 +1,10 @@
 PHP Form Builder
 ==============
 
-PHP Form Builder is a Sublime Text 2/3 plugin for [**Php Form Builder**](https://www.phpformbuilder.pro "Php Form Builder"),
-php class to build forms sold on [Codecanyon](http://codecanyon.net/category/php-scripts "Codecanyon").
+PHP Form Builder is a Sublime Text plugin for [**Php Form Builder**](https://www.phpformbuilder.pro "Php Form Builder"),
+a PHP framework to build Bootstrap 4, Bootstrap 5, Bulma, Foundation, Material, Tailwind and uiKit forms sold on [Codecanyon](http://codecanyon.net/category/php-scripts "Codecanyon").
 
-PHP Form Builder adds auto-completions for Form Builder's PHP class methods.
+This plugin adds auto-completions for Form Builder's PHP class methods.
 
 Features
 --------
@@ -72,4 +72,4 @@ More
 ----
 
 PHP Form Builder is also available in the PHP CRUD Generator package
-PHP CRUD Generator is a web app that generates a [**PHP MySQL Bootstrap admin panel**](https://www.phpcrudgenerator.com "PHP CRUD Generator") using a visual user interface
+PHP CRUD Generator is a web app that generates a [**PHP MySQL Bootstrap admin dashboard**](https://www.phpcrudgenerator.com "PHP CRUD Generator") using a visual user interface

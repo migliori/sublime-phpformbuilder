@@ -10,6 +10,9 @@
                 "caption": "new Form()",
                 "command": "completion_trigger", "args": {"completionTriggerText": "newForm"}
             }, {
+                "caption": "newFormTemplate",
+                "command": "completion_trigger", "args": {"completionTriggerText": "newFormTemplate"}
+            }, {
                 "caption": "setMode()",
                 "command": "completion_trigger", "args": {"completionTriggerText": "setMode"}
             }, {
@@ -46,6 +49,9 @@
                 "caption": "addAddon()",
                 "command": "completion_trigger", "args": {"completionTriggerText": "addAddon"}
             }, {
+                "caption": "addHeading()",
+                "command": "completion_trigger", "args": {"completionTriggerText": "addHeading"}
+            }, {
                 "caption": "addHelper()",
                 "command": "completion_trigger", "args": {"completionTriggerText": "addHelper"}
             }, {
@@ -55,8 +61,11 @@
                 "caption": "addHtml()",
                 "command": "completion_trigger", "args": {"completionTriggerText": "addHtml"}
             }, {
-                "caption": "groupInputs()",
-                "command": "completion_trigger", "args": {"completionTriggerText": "groupInputs"}
+                "caption": "buildAlert()",
+                "command": "completion_trigger", "args": {"completionTriggerText": "buildAlert"}
+            }, {
+                "caption": "groupElements()",
+                "command": "completion_trigger", "args": {"completionTriggerText": "groupElements"}
             }, {
                 "caption": "addInputWrapper()",
                 "command": "completion_trigger", "args": {"completionTriggerText": "addInputWrapper"}
@@ -76,6 +85,9 @@
                 "caption": "addCountrySelect()",
                 "command": "completion_trigger", "args": {"completionTriggerText": "addCountrySelect"}
             }, {
+                "caption": "addTimeSelect()",
+                "command": "completion_trigger", "args": {"completionTriggerText": "addTimeSelect"}
+            }, {
                 "caption": "addRadio()",
                 "command": "completion_trigger", "args": {"completionTriggerText": "addRadio"}
             }, {
@@ -91,8 +103,20 @@
                 "caption": "addFileUpload()",
                 "command": "completion_trigger", "args": {"completionTriggerText": "addFileUpload"}
             }, {
-                "caption": "centerButtons()",
-                "command": "completion_trigger", "args": {"completionTriggerText": "centerButtons"}
+                "caption": "centerContent()",
+                "command": "completion_trigger", "args": {"completionTriggerText": "centerContent"}
+            }, {
+                "caption": "startRow()",
+                "command": "completion_trigger", "args": {"completionTriggerText": "startRow"}
+            }, {
+                "caption": "endRow()",
+                "command": "completion_trigger", "args": {"completionTriggerText": "endRow"}
+            }, {
+                "caption": "startCol()",
+                "command": "completion_trigger", "args": {"completionTriggerText": "startCol"}
+            }, {
+                "caption": "endCol()",
+                "command": "completion_trigger", "args": {"completionTriggerText": "endCol"}
             }, {
                 "caption": "addBtn()",
                 "command": "completion_trigger", "args": {"completionTriggerText": "addBtn"}
@@ -106,11 +130,8 @@
                 "caption": "addRecaptchaV3()",
                 "command": "completion_trigger", "args": {"completionTriggerText": "addRecaptchaV3"}
             }, {
-                "caption": "addInvisibleRecaptcha()",
-                "command": "completion_trigger", "args": {"completionTriggerText": "addInvisibleRecaptcha"}
-            }, {
-                "caption": "addRecaptchaV2()",
-                "command": "completion_trigger", "args": {"completionTriggerText": "addRecaptchaV2"}
+                "caption": "addHcaptcha()",
+                "command": "completion_trigger", "args": {"completionTriggerText": "addHcaptcha"}
             }, {
                 "caption": "modal()",
                 "command": "completion_trigger", "args": {"completionTriggerText": "modal"}
