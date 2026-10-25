@@ -1,75 +1,75 @@
-PHP Form Builder
-==============
+# PHP Form Builder — Sublime Text Autocompletions
 
-PHP Form Builder is a Sublime Text plugin for [**Php Form Builder**](https://www.phpformbuilder.pro "Php Form Builder"),
-a PHP framework to build Bootstrap 4, Bootstrap 5, Bulma, Foundation, Material, Tailwind and uiKit forms sold on [Codecanyon](http://codecanyon.net/category/php-scripts "Codecanyon").
+[![](https://img.shields.io/badge/PHP%20Form%20Builder-7.0-blue)](https://www.phpformbuilder.pro)
+[![](https://img.shields.io/badge/Sublime%20Text-3%20%7C%204-orange)](https://www.sublimetext.com)
+[![](https://img.shields.io/badge/Package%20Control-available-green)](https://packagecontrol.io/packages/PHP%20Form%20Builder)
 
-This plugin adds auto-completions for Form Builder's PHP class methods.
+Autocompletions for [**PHP Form Builder**](https://www.phpformbuilder.pro "PHP Form Builder"),
+the PHP framework to build Bootstrap 4, Bootstrap 5, Bulma, Foundation, Material, Tailwind and UIkit forms —
+sold directly on [phpformbuilder.pro](https://www.phpformbuilder.pro).
 
-Features
---------
+> **Updated for PHP Form Builder v7.0** — all methods, arguments and plugin names are up to date.
 
-* access to PHP Form Builder completions using one unique shortcut
-* access to PHP Form Builder completions using the Tools menu
+## Features
 
-Installing
-----------
+* **62 completions** covering the full PHP Form Builder API: form creation, inputs, selects, checkboxes, radios, buttons, file uploads, plugins, rendering and static helpers
+* Access all completions with a single shortcut
+* Access completions from the Sublime Text menu
+* Standard auto-completion while you type
+* Ready-to-use form template snippet
 
-**Package Control** (**this is the recommended method**) :
-  First install Package Control - [see installation instructions](https://packagecontrol.io/installation)
-  Then inside Sublime Text press `ctrl + shift + p` ( `super + shift + p` on Mac OS X ) and find
-  `Package Control: Install Package` then press Enter.
-  You can search for the `PHP Form Builder` package by entering its name `PHP Form Builder`
+## Installing
 
-**Without Git:** Download the latest source from [GitHub](https://github.com/migliori/sublime-phpformbuilder) and copy the PhpFormBuilder folder to your Sublime Text "Packages" directory.
+### With Package Control (recommended)
 
-**With Git:** Clone the repository in your Sublime Text "Packages" directory:
+1. [Install Package Control](https://packagecontrol.io/installation) if not already done
+2. Open the command palette: `ctrl+shift+p` (`super+shift+p` on macOS)
+3. Type `Package Control: Install Package` and press Enter
+4. Search for `PHP Form Builder` and press Enter
 
-    git clone https://github.com/migliori/sublime-phpformbuilder.git PhpFormBuilder
+### Without Git
 
+Download the latest source from [GitHub](https://github.com/migliori/sublime-phpformbuilder) and copy the folder to your Sublime Text `Packages` directory.
 
-The "Packages" directory is located at:
+### With Git
 
-* OS X:
+Clone the repository in your Sublime Text `Packages` directory:
 
-        ST2: ~/Library/Application Support/Sublime Text 2/Packages/
-        ST3: ~/Library/Application Support/Sublime Text 3/Packages/
+```bash
+git clone https://github.com/migliori/sublime-phpformbuilder.git "PHP Form Builder"
+```
 
-* Linux:
+The `Packages` directory is located at:
 
-        ST2: ~/.config/sublime-text-2/Packages/
-        ST3: ~/.config/sublime-text-3/Packages/
+| OS      | Path                                                        |
+|---------|-------------------------------------------------------------|
+| macOS   | `~/Library/Application Support/Sublime Text/Packages/`      |
+| Linux   | `~/.config/sublime-text/Packages/`                          |
+| Windows | `%APPDATA%/Sublime Text/Packages/`                          |
 
-* Windows:
+## Usage
 
-        ST2: %APPDATA%/Sublime Text 2/Packages/
-        ST3: %APPDATA%/Sublime Text 3/Packages/
+### Shortcut
 
-Usage
------
+Press `ctrl+alt+w` (`super+alt+w` on macOS) to open the quick panel with all available completions.
 
-### using shortcut
-`ctrl+alt+w` or `super+alt+w`
+### Auto-completion
 
-### using auto-completions
-start typing the name of a PHP Form Builder function, the auto-complete list will appear.
+Start typing the name of a PHP Form Builder function — the auto-complete list will appear.
 
-OR
+Or type `phpformbuilder` to show all available completions.
 
-start typing "phpformbuilder" to show all the available completions
+### Menu
 
-### using sublime text menu
-Tools -> PHP Form Builder -> Completions
+`Tools → PHP Form Builder → Completions`
 
-Shortcut
---------
+### Custom shortcut
 
-Defaut shortcut is `ctrl+alt+w` or `super+alt+w`
+The default shortcut is `ctrl+alt+w` (`super+alt+w` on macOS).
 
-You can change it in Preferences -> Package Settings -> PHP Form Builder -> Key Bidings - User
+You can change it in `Preferences → Package Settings → PHP Form Builder → Key Bindings`.
 
-More
-----
+## More
 
-PHP Form Builder is also available in the PHP CRUD Generator package
-PHP CRUD Generator is a web app that generates a [**PHP MySQL Bootstrap admin dashboard**](https://www.phpcrudgenerator.com "PHP CRUD Generator") using a visual user interface
+PHP Form Builder is also available in the [PHP CRUD Generator](https://www.phpcrudgenerator.com) package —
+a web app that generates a PHP MySQL Bootstrap admin dashboard using a visual user interface.
